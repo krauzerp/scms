@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="Seite 1">
+  <row>
+    <block name="data_0.xml" cols="12"/>
+  </row>
+  <row>
+    <block name="data_a.xml" cols="4"/>
+    <block name="data_b.xml" cols="4"/>
+    <block name="data_c.xml" cols="4"/>
+  </row>
+  <row>
+    <block name="data_d.xml" cols="6"/>
+    <block name="data_e.xml" cols="6"/>
+  </row>
+</page>
