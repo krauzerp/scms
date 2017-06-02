@@ -133,7 +133,6 @@
   };
 
   Pen.prototype.toolbar = function() {
-
     var that = this, icons = '';
 
     for(var i = 0, list = this.config.list; i < list.length; i++) {
@@ -144,9 +143,9 @@
 
     var menu = doc.createElement('div');
     menu.setAttribute('class', this.config.class + '-menu pen-menu');
+
     menu.innerHTML = icons;
     menu.style.display = 'none';
-
     doc.body.appendChild((this._menu = menu));
 
     var setpos = function() {
@@ -358,8 +357,13 @@
 
     if(!isAJoke) {
       this._sel.removeAllRanges();
+
       this._menu.style.display = 'none';
+
+      if(this._menu)
+        this._menu.parentNode.removeChild(this._menu);
     }
+    
     this._isDestroyed = destroy;
     this.config.editor[attr]('contenteditable', '');
 

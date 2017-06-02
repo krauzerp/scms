@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="Seite 2" date="2014/04/05 10:39:07">
+  <row>
+    <block name="data_2.xml" type="content" cols="12"/>
+  </row>
+  <row>
+    <block name="data_b1.xml" type="content" cols="4"/>
+    <block name="data_b2.xml" type="content" cols="4"/>
+    <block name="data_b3.xml" type="content" cols="4"/>
+  </row>
+  <row>
+    <block name="media_1.xml" type="media" cols="6"/>
+    <block name="data_b4.xml" type="content" cols="6"/>
+  </row>
+</page>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page name="Seite 3" date="2014/04/05 10:58:22">
+  <row>
+    <block name="data_3.xml" type="content" cols="12"/>
+  </row>
+  <row>
+    <block name="data_c1.xml" type="content" cols="4"/>
+    <block name="data_c2.xml" type="content" cols="4"/>
+    <block name="data_c3.xml" type="content" cols="4"/>
+  </row>
+  <row>
+    <block name="media_0.xml" type="media" cols="3"/>
+    <block name="media_1.xml" type="media" cols="3"/>
+    <block name="media_2.xml" type="media" cols="3"/>
+    <block name="media_3.xml" type="media" cols="3"/>
+  </row>
+  <row>
+    <block name="data_c4.xml" type="content" cols="4"/>
+    <block name="data_c5.xml" type="content" cols="4"/>
+    <block name="data_c6.xml" type="content" cols="4"/>
+  </row>
+</page>
