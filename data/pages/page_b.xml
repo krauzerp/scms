@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<page name="Seite 2">
+<page>
   <row>
     <block name="data_1.xml" cols="12"/>
   </row>
